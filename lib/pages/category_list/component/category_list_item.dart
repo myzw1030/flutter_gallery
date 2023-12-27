@@ -34,6 +34,7 @@ class CategoryListItem extends StatelessWidget {
         leading: Icon(
           icon,
           size: 24,
+          color: const Color(0xFFB93C5D),
         ),
         onTap: () {
           Navigator.push(

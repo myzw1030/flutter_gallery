@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gallery/pages/category_list/component/category_list_item.dart';
-import 'package:flutter_gallery/pages/category_list/demo_page/app_bar_demo.dart';
+import 'package:flutter_gallery/pages/category_list/demo_data/demo_pages/app_bar_demo.dart';
+import 'package:flutter_gallery/pages/category_list/demo_data/demo_pages/banner_demo.dart';
 
 class Demos {
   // Material
@@ -11,6 +12,12 @@ class Demos {
         subtitle: '現在の画面に関連する情報やアクションを表示します',
         icon: Icons.web_asset,
         widget: AppBarDemo(),
+      ),
+      const CategoryListItem(
+        title: 'バナー',
+        subtitle: 'リスト内にバナーを表示します',
+        icon: Icons.list_alt_sharp,
+        widget: BannerDemo(),
       ),
     ];
   }
