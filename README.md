@@ -1,8 +1,6 @@
 # flutter_gallery
 
-A new Flutter project.
+Flutter Gallery 自分用
 
-## Getting Started
-
-Flutter Gallery 　自分用
+参照
 https://gallery.flutter.dev/#/
