@@ -8,16 +8,16 @@ void main() {
 class GalleryApp extends StatelessWidget {
   const GalleryApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
         scaffoldBackgroundColor: const Color(0xFFE6EBEB),
       ),
+      // theme: GalleryThemeData.lightThemeData,
       home: const HomePage(),
     );
   }

@@ -35,7 +35,6 @@ class _Header extends StatelessWidget {
         style: const TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold,
-          color: Color(0xFFB93C5D),
         ),
       ),
     );

@@ -70,7 +70,10 @@ class _BannerDemoState extends State<BannerDemo> with RestorationMixin {
       leading: _showLeading.value
           ? CircleAvatar(
               backgroundColor: colorScheme.primary,
-              child: Icon(Icons.access_alarm, color: colorScheme.onPrimary),
+              child: Icon(
+                Icons.access_alarm,
+                color: colorScheme.onPrimary,
+              ),
             )
           : null,
       actions: [
